@@ -1,0 +1,7 @@
+PASSO 1- INICIO
+
+PASSO 2- Chegou um número X 
+
+PASSO 3- Módulo de 2 
+
+PASSO 4- Se o resultado for diferente de 0 ele vai ser impar se não é par 
