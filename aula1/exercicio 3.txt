@@ -1,0 +1,9 @@
+PASSO 1- Inicio
+
+PASSO 2- Solicitar graus celsius
+
+PASSO 3- Calcular a temperatura
+
+PASSO 4- Exibir a temperatura
+
+PASSO 5- Fim
