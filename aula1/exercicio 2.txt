@@ -1,0 +1,13 @@
+PASSO 1- Solicitar ao usuário que insira a primeira nota do aluno
+
+PASSO 2- Ler a primeira nota e armazená-la em uma variável
+
+PASSO 3- Solicitar ao usuário que insira a segunda nota do aluno
+
+PASSO 4- Ler a segunda nota e armazená-la em outra variável
+
+PASSO 5- Calcular a média aritmética das duas notas, somando-as e dividindo por 2
+
+PASSO 6- Exibir a média calculada na tela
+
+PASSO 7- FIM
