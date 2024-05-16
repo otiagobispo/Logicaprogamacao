@@ -1,0 +1,11 @@
+PASSO 1- INICIO
+
+PASSO 2- Solicitar ao usuário que insira um número inteiro não negativo
+
+PASSO 3- Inicializar uma variável para iterar de 1 até o número digitado pelo usuário
+
+PASSO 4- Para cada iteração, multiplicar o resultado do fatorial pelo valor atual do iterador
+
+PASSO 5- Exibir o resultado do fatorial na tela
+
+PASSO 6- FIM
