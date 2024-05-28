@@ -1,0 +1,18 @@
+<script>
+    let nome = prompt("Informe seu nome")
+    let nota1 = parseFloat(prompt("Infome sua Primeira nota"));
+    let nota2 = parseFloat(prompt("Infome sua Segunda nota"));
+    let nota3 = parseFloat(prompt("Infome sua Terceira nota"));
+
+    let media_aritimetica =  (nota1+nota2+nota3)/3;
+
+    if(media_aritimetica >= 7){
+        alert("Aprovado")
+    }
+    else if(media_aritimetica <= 5 ){
+        alert("Reprovado");
+    }
+    else{
+        alert("Recuperação");
+    }
+</script>
