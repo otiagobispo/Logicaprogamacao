@@ -1,0 +1,26 @@
+<script>
+    let colecao = []
+
+    let escolha = 0
+
+    do {
+        escolha = parseInt(prompt("Digite 1 para adicionar elemento\n Digite 2 para mostrar elementos\nDigite 0 para sair da aplicação"));
+        switch (escolha) {
+            case 1:
+                colecao.push(prompt("Digite algo para adicionar na coleção"));
+                break;
+            case 2:
+                alert(colecao.join("\n"))
+                break;
+                case 0:
+                alert("Você saiu da aplicação");
+                break;
+            default:
+                alert("Digite um número valido");
+                break;
+        }
+    }
+    while (escolha != 0);
+
+
+</script>
