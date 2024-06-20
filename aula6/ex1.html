@@ -1,0 +1,107 @@
+<script>
+exercicio1();
+exercicio2();
+exercicio3();
+exercicio4();
+exercicio5();
+exercicio6();
+exercicio7();
+exercicio8();
+
+function exercicio1(){
+    alert("Bispão");
+}
+
+function exercicio2(){
+    let nomePersonagem = "Bispão";
+    alert(nomePersonagem);
+
+}
+
+
+function exercicio3(){
+    let x = parseFloat(prompt("Digite um numero"));
+    let y = parseFloat(prompt("Digite outro numero"));
+
+    alert ("Soma: " + somarNumeros(x,y) + "\n Substração: " + subtrairNumeros(x,y) + "\n Multiplicação: " + multiplicarNumeros(x,y) + "\n Divisão: " + dividirNumeros(x,y));
+}
+
+function somarNumeros(numero1,numero2){
+    return numero1 + numero2;
+}
+
+function subtrairNumeros(numero1,numero2){
+    return numero1 - numero2;
+}
+
+
+function multiplicarNumeros(numero1,numero2){
+    return numero1 * numero2;
+}
+
+function dividirNumeros(numero1,numero2){
+    return numero1 / numero2;
+}
+
+function exercicio4(){
+    let nome = prompt("Digite aqui");
+    let sobrenome = prompt("Digite um nome");
+    alert (somarNome(nome,sobrenome));
+
+
+}
+
+function somarNome(nome,sobrenome){
+    return nome + sobrenome;
+}
+
+function exercicio5(){
+    let idade = parseInt(prompt("Digite sua idade"));
+    if(idade >=18){
+        alert("Você é maior de idade");
+    }
+   else{
+    alert("Voçê é menor de idade");
+   }
+
+}
+ 
+function exercicio6(){
+    let numero = parseInt(prompt("Digite um numero"));
+    if(numero % 2 == 0){
+        alert("Numero par");}
+    else{
+        alert("Numero ímpar");
+    }
+
+}
+ 
+
+function exercicio7(){
+    let num_n = parseInt(prompt("Digite um numero"));
+    for(let i = num_n; i >= 0; i--)
+    alert(i);
+
+}
+
+function exercicio8(){
+    let idade = parseInt(prompt("Digite sua idade"));
+    
+
+}
+
+
+
+
+
+
+
+    
+  
+
+
+
+
+
+
+</script>
