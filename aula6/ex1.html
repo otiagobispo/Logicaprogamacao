@@ -1,23 +1,39 @@
 <script>
-exercicio1();
-exercicio2();
-exercicio3();
-exercicio4();
-exercicio5();
-exercicio6();
-exercicio7();
-exercicio8();
+let menu = parseInt(prompt("Escolha seu exercicio de 1 a 9 "));
 
-function exercicio1(){
+switch(menu){
+    case 1: 
+    exercicio1();
+    case 2:
+    exercicio2();
+    case 3:
+    exercicio3();
+    case 4:
+    exercicio4();
+    case 5:
+    exercicio5();
+    case 6:
+    exercicio6();
+    case 7:
+    exercicio7();
+    case 8:
+    exercicio8();
+    case 9:
+    exercicio9();                                                                                                                                                                                                                                                          
+    
+}
+
+function mostrarNome(){
     alert("Bispão");
 }
 
 function exercicio2(){
-    let nomePersonagem = "Bispão";
-    alert(nomePersonagem);
-
+    let nome = digitarNome();
+    alert(nome);
 }
-
+function digitarNome(){
+    return prompt(" Digite seu nome ");
+}
 
 function exercicio3(){
     let x = parseFloat(prompt("Digite um numero"));
@@ -85,10 +101,10 @@ function exercicio7(){
 }
 
 function exercicio8(){
-    let idade = parseInt(prompt("Digite sua idade"));
-    
+
 
 }
+
 
 
 

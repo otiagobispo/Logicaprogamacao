@@ -1,18 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+</html>
+
 <script>
-    let nome = prompt("Informe seu nome")
-    let nota1 = parseFloat(prompt("Infome sua Primeira nota"));
-    let nota2 = parseFloat(prompt("Infome sua Segunda nota"));
-    let nota3 = parseFloat(prompt("Infome sua Terceira nota"));
+    let nome = prompt(" Digite o nome ");
+    let nota1 = parseFloat(prompt(" Digite sua nota1 "));
+    let nota2 = parseFloat(prompt(" Digite sua nota2 "));
+    let nota3 = parseFloat(prompt(" Digite sua nota3 "));
+    let media = (nota1 + nota2 + nota3) / 3
+    if (media >=7 ){
+        alert(media + " Aprovado ")
+    }else if(media >5 && media < 7){
+        alert(media + " Recuperação ")
+    }else{
+        alert(media + " Reprovado ");
+    }
 
-    let media_aritimetica =  (nota1+nota2+nota3)/3;
-
-    if(media_aritimetica >= 7){
-        alert("Aprovado")
-    }
-    else if(media_aritimetica <= 5 ){
-        alert("Reprovado");
-    }
-    else{
-        alert("Recuperação");
-    }
 </script>

@@ -1,29 +1,26 @@
 <script>
-    let produto1_custo = parseInt (prompt("Digite o custo do produto 1"));
-    let produto1_venda = parseInt (prompt("Digito o valor da venda do produto 1"));
+    let preço_de_custo1 = parseFloat(prompt(" Digite o preço de custo "));
 
-    let produto2_custo = parseInt(prompt("Digite o custo do produto 2"))
-    let produto2_venda = parseInt(prompt("Digite o valor do produto 2"))
+    let venda1 = parseFloat(prompt(" Digite o preço da venda "));
 
-    if(produto1_custo > produto1_venda){
-            alert("Voce teve prejuizo no produto 1");
-        }else if(produto2_custo == produto1_venda){
-            alert("Voce ficou no 0 com o produto 1");
-        }else{
-            alert("Voce teve lucro no produto 1");
-        }
+    let preço_de_custo2 = parseFloat(prompt(" Digite o preço de custo "));
 
-        if(produto2_custo > produto2_venda){
-            alert("Voce teve prejuizo no produto 2");
-        }else if(produto2_custo == produto2_venda){
-            alert("Voce ficou no 0 com o produto 2");
-        }else{
-            alert("Voce teve lucro no produto 2");
-        }
+    let venda2 = parseFloat(prompt(" Digite o preço da venda "));
 
-        let media_custo = (produto1_custo + produto2_custo)/ 2;
-        let media_venda = (produto1_venda + produto2_venda)/ 2;
+    let media_preço_de_custo = (preço_de_custo1 + preço_de_custo2) /2 
+    let media_venda = (venda1 + venda2) /2 
+    if(preço_de_custo1 < venda1 && preço_de_custo2 < venda2 ){
+        alert(" Você teve lucro ");
+    }else if(preço_de_custo1 == venda1 && preço_de_custo2 == venda2) {
+        alert(" Saiu no empate ");
+    }
+    else{
+        alert(" Você teve prejuizo ");
 
-        alert("Sua média de custo foi: " + ((produto1_custo)/ 2) + "e sua média de venda foi: " + media_venda);
+    }
+    alert(" A média do preço de custo " + media_preço_de_custo + " A média do preço de venda " + media_venda);
+
         
 </script>
+
+

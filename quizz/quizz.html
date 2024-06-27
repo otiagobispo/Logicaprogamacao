@@ -1,0 +1,31 @@
+<script>
+    mostrarPergunta();
+
+    function mostrarPergunta() {
+
+        let pontuação = 0;
+
+        let pergunta = [" Quem ganhou a copa do mundo de 2010? \n (1) Espanha \n (2) Brasil \n (3) Italia \n (4) Argentina",
+            " De que cidade é o Chelsea Football Club? \n (1) Fulham \n (2) Londres \n (3) Lisboa \n (4) Roma",
+            "Quem é conhecido como O Rei? \n (1) O Brasileiro Edson Arantes do Nascimento, apelidado de Pelé \n (2) Diego Armando Maradona Franco \n (3) Ronaldo de Assis Moreira \n (4) Rivaldo Vítor Borba Ferreira",
+            "Qual time ganhou mais Champions League na história? \n (1) Real Madrid \n (2) Barcelona \n (3) Bayern München \n (4) PSG"
+        ];
+
+        for (let x = 0; x < 4; x++) {
+
+            let test = parseInt(prompt(pergunta[x]))
+            if (test == 1) {
+                alert("correto")
+                pontuação++;
+            }
+
+            else { alert("errado") }
+
+        }
+
+        alert("Você acertou " + pontuação + " questões")
+    }
+
+
+
+</script>
