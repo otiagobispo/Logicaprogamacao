@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+        let palavra = ["teste", "davi", "pedro", "thiago"]
+        let palavraEscolhida = palavra[Math.floor(Math.random() * palavra.length)]
+
+        jogarWordJumble()
+
+    function embaralharPalavra() {
+        let arrayPalavra = palavraEscolhida.split('').sort()
+        let palavraEmbaralhada = arrayPalavra.join('')
+        return palavraEmbaralhada
+    }
+
+    function jogarWordJumble() {
+
+        let palavra_2 = prompt("digite uma palavra: " + embaralharPalavra())
+
+        if (palavra_2 === palavraEscolhida) {
+            alert("você acertou")
+        } else {
+            alert("você errou. a palavra correta é: " + palavraEscolhida)
+        }
+    }
+
+</script>
